@@ -97,7 +97,8 @@ return {
         pathMappings = {
           ["/data/www"] = "${workspaceFolder}/src",
         },
-      },{
+      },
+      {
         type = "php",
         request = "launch",
         name = "Listen for Xdebug OLD FOLDER",
@@ -105,7 +106,8 @@ return {
         pathMappings = {
           ["/data/www/old"] = "${workspaceFolder}",
         },
-      },{
+      },
+      {
         type = "php",
         request = "launch",
         name = "Listen for Xdebug NEW FOLDER",
