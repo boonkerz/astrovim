@@ -14,7 +14,7 @@ return {
     },
     config = function()
       require("phptools").setup {
-        ui = false, -- if you have stevearc/dressing.nvim or something similar keep it false or else true
+        ui = true, -- if you have stevearc/dressing.nvim or something similar keep it false or else true
       }
       vim.keymap.set("v", "<leader>lr", ":PhpRefactor<cr>")
     end,

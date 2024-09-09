@@ -8,8 +8,4 @@ class User
     {
     }
 
-    public function getLastname(): string
-    {
-
-    }
 }

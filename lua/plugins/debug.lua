@@ -82,12 +82,6 @@ return {
     -- Install golang specific config
     require("dap-go").setup()
 
-    dap.adapters.php = {
-      type = "executable",
-      command = "node",
-      args = { os.getenv "HOME" .. "/projekte/vscode-php-debug/out/phpDebug.js" },
-    }
-
     dap.configurations.php = {
       {
         type = "php",
